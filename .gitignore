@@ -1,0 +1,2 @@
+#Directory where data is dumped, loaded into the container as a Docker Volume
+data/
