@@ -1,0 +1,8 @@
+version: "3.7"
+services:
+  polar-bear:
+    build: .
+    image: polar-bear
+    volumes:
+      - ./data:/data
+      - ./src:/src
